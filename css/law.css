@@ -42,7 +42,7 @@ a:hover{opacity:.75}
 .stat-num{font-family:var(--serif);font-size:1.6rem;font-weight:700;color:var(--red)}
 .stat-label{font-size:.68rem;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-top:4px}
 .hero-img{position:relative}
-.hero-img img{width:100%;aspect-ratio:3/4;object-fit:cover;filter:grayscale(.25)}
+.hero-img img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 15%;filter:grayscale(.25)}
 .hero-img::before{content:'';position:absolute;inset:12px;border:2px solid var(--red);z-index:-1;transform:translate(6px,6px)}
 
 /* TRUST */
