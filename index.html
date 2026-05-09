@@ -21,7 +21,7 @@
 <a href="contacts.html">Контакты</a>
 <a href="contacts.html" class="nav-cta">Консультация</a>
 </nav>
-<button class="menu" onclick="document.querySelector('.nav').classList.toggle('active')"><span></span><span></span><span></span></button>
+<button class="menu" id="menuBtn"><span></span><span></span><span></span></button>
 </div>
 </header>
 
@@ -159,6 +159,12 @@
 <div class="fbot"><span>© 2026 Адвокат Руслан Серохвостов</span><span>Реестровый № 50/8915 · АПМО</span></div>
 </div>
 </footer>
+
+<script>
+document.getElementById('menuBtn').addEventListener('click',function(){
+  document.querySelector('.nav').classList.toggle('active');
+});
+</script>
 
 </body>
 </html>
